@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> -->
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="CSS/Style.css" />
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-icons.css">
     <title>My Portfolio | Tri Joko Nugroho</title>
   </head>
   <body id="home">
     <!-- Bagian Navbar -->
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Tri Joko Nugroho</a>
@@ -42,8 +42,8 @@
         </div>
       </div>
     </nav>
-
     <!-- Akhir Navbar -->
+
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="IMG/Profile.jpg" alt="Profile" width="200" class="rounded-circle img-thumbnail" />
@@ -58,6 +58,7 @@
       </svg>
     </section>
     <!-- Akhir Jumbotron -->
+    
     <!-- About -->
     <section id="about">
       <div class="container">
@@ -67,11 +68,11 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-5">
             <p>Kemampuan dalam rekayasa engineer sangat diperlukan agar suatu produk teknik atau konstruksi bangunan sesuai dengan kaidah teknik dan masuk dari sisi ekonomi. Kemampuan ini terus saya asah dalam diri saya. Beberapa project dimana saya terlibat adalah Project konstruksi Apartment, Pabrik dan Pembuatan Design Miang Besar Coal terminal dan Manyar smelter project.
              </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5">
             <p>Penggunaan software rekayasa sangat membantu dalam membuat design. Banyak software rekayasa yang saya gunakan untuk membuat rancangan teknis adalah Ansys, Caesar II, SAP2000, ETAP, HTRI dll. Sedangkan software untuk membuat document teknis seperti gambar, spesifikasi dan Bill of quantity adalah autocad, Navis, Solidwork, serta Microsoft Office</p>
           </div>
         </div>
@@ -85,6 +86,7 @@
       </svg>
     </section>
     <!-- Akhir About -->
+
     <!-- Project -->
     <section id="project">
       <div class="container">
@@ -145,6 +147,7 @@
       </svg>
     </section>
     <!-- Akhir Project -->
+    
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -163,15 +166,19 @@
             <form name="wpu-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="masukan nama"/>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" placeholder="masukan nama email"/>
+              </div>
+              <div class="mb-3">
+                <label for="telepon" class="form-label">Telepon</label>
+                <input type="text" class="form-control" id="telepon" aria-describedby="telepon" name="telepon" placeholder="masukan nomer telepon"/>
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="tulis pesan"></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
@@ -193,11 +200,13 @@
       </svg>
     </section>
     <!-- AKhir Contact -->
+    
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-5">
       <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://web.facebook.com/trijokon" class="text-white fw-bold">Tri Joko Nugroho</a></p>
     </footer>
     <!-- Akhir Footer -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script>
