@@ -1,10 +1,21 @@
+.navbar {
+  background-color: #6d4a3d;
+  opacity: 50%;
+}
 .jumbotron {
+  background-image: url(../IMG/background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #c3b4aa;
 }
 #project {
-  background-color: #e2edff;
+  background-color: #b8a598;
 }
 section {
   padding-top: 5rem;
+}
+footer {
+  background-color: #c3b4aa;
 }

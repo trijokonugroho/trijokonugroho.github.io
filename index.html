@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <>
-    <!-- Required meta tags -->
+      <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- My CSS -->
+    <!-- <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"> -->
     <link rel="stylesheet" href="CSS/Style.css" />
-    <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="CSS/bootstrap-icons.css"> -->
     <title>My Portfolio | Tri Joko Nugroho</title>
   </head>
   <body id="home">
     <!-- Bagian Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Tri Joko Nugroho</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +46,7 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="IMG/Profile.jpg" alt="Profile" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Tri Joko Nugroho</h1>
+      <h1 class="display-4" style="text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5)">Tri Joko Nugroho</h1>
       <p class="lead">ME Engineer | Piping Enginer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -69,17 +68,17 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-5">
-            <p>Kemampuan dalam rekayasa engineer sangat diperlukan agar suatu produk teknik atau konstruksi bangunan sesuai dengan kaidah teknik dan masuk dari sisi ekonomi. Kemampuan ini terus saya asah dalam diri saya. Beberapa project dimana saya terlibat adalah Project konstruksi Apartment, Pabrik dan Pembuatan Design Miang Besar Coal terminal dan Manyar smelter project.
+            <p>Kemampuan dalam rekayasa engineer sangat diperlukan agar suatu produk atau konstruksi hasil rekayasa tersebut agar feasible secara teknik maupun ekonomi. Kemampuan ini terus saya asah dalam diri saya. Beberapa project dimana saya terlibat adalah Project konstruksi Apartment, Pabrik dan Pembuatan Design Miang Besar Coal terminal dan Manyar smelter project.
              </p>
           </div>
           <div class="col-md-5">
-            <p>Penggunaan software rekayasa sangat membantu dalam membuat design. Banyak software rekayasa yang saya gunakan untuk membuat rancangan teknis adalah Ansys, Caesar II, SAP2000, ETAP, HTRI dll. Sedangkan software untuk membuat document teknis seperti gambar, spesifikasi dan Bill of quantity adalah autocad, Navis, Solidwork, serta Microsoft Office</p>
+            <p>Penggunaan software rekayasa sangat membantu dalam membuat design. Banyak software rekayasa yang saya gunakan untuk membuat rancangan teknis adalah Ansys, Caesar II, SAP2000, ETAP, HTRI dll. Sedangkan software untuk membuat document teknis seperti gambar, spesifikasi dan Bill of quantity adalah Autocad, Navis, Solidwork, serta Microsoft Office</p>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#C3B4AA"
           fill-opacity="1"
           d="M0,128L34.3,154.7C68.6,181,137,235,206,245.3C274.3,256,343,224,411,186.7C480,149,549,107,617,117.3C685.7,128,754,192,823,197.3C891.4,203,960,149,1029,154.7C1097.1,160,1166,224,1234,245.3C1302.9,267,1371,245,1406,234.7L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
@@ -163,7 +162,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
-            <form name="wpu-contact-form">
+            <form name="my-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" placeholder="masukan nama"/>
@@ -173,7 +172,7 @@
                 <input type="email" class="form-control" id="email" aria-describedby="email" name="email" placeholder="masukan nama email"/>
               </div>
               <div class="mb-3">
-                <label for="telepon" class="form-label">Telepon</label>
+                <label for="telepon" class="form-label">No Telepon</label>
                 <input type="text" class="form-control" id="telepon" aria-describedby="telepon" name="telepon" placeholder="masukan nomer telepon"/>
               </div>
               <div class="mb-3">
@@ -181,7 +180,7 @@
                 <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="tulis pesan"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-dark btn-kirim">Kirim</button>
 
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -193,7 +192,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#C3B4AA"
           fill-opacity="1"
           d="M0,160L34.3,181.3C68.6,203,137,245,206,240C274.3,235,343,181,411,181.3C480,181,549,235,617,256C685.7,277,754,267,823,234.7C891.4,203,960,149,1029,154.7C1097.1,160,1166,224,1234,256C1302.9,288,1371,288,1406,288L1440,288L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
@@ -202,16 +201,22 @@
     <!-- AKhir Contact -->
     
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://web.facebook.com/trijokon" class="text-white fw-bold">Tri Joko Nugroho</a></p>
+    <footer class="text-white text-center pb-5">
+      <p>&copy; copyright 2021 | Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://web.facebook.com/trijokon" class="text-white fw-bold">Tri Joko Nugroho</a></p>
     </footer>
     <!-- Akhir Footer -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <!-- myscript -->
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/jquery.easing.js"></script>
+    <script src="../JS/script.js"></script>
+    <!-- akhir dari myscript -->
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzjeS5E5IweWZleI2ACP-98Ih6YqC-nPxK6h41KO8iD4MDmr2Ai-XFM1jMys4xVbT0E/exec";
-      const form = document.forms["wpu-contact-form"];
+      const form = document.forms["my-contact-form"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");
       const myAlert = document.querySelector(".my-alert");
